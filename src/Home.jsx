@@ -9,7 +9,7 @@ return (
         <div className='emoji-box'>
             <div className='emoji'> {emoji}</div>
         </div>
-
+  <div className="emojis-container">
         <div className='emojis'> 😀 </div>
         <div className='emojis'> 😁 </div>
         <div className='emojis'> 😂 </div>
@@ -19,9 +19,10 @@ return (
         <div className='emojis'> 😆 </div>
         <div className='emojis'> 😉 </div>
         <div className='emojis'> 😊 </div>
-        <div className='emojis'> 😋 </div>
+        <div className='emojis'> 😋 </div></div>
 
     </div>
+    
 );
 }
 export default Home;
