@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import EmojiBtn from './EmojiBtn';
 import './Home.css';
 function Home() {
     const [emoji , setemoji]= useState("😀");
@@ -10,16 +11,16 @@ return (
             <div className='emoji'> {emoji}</div>
         </div>
   <div className="emojis-container">
-        <div className='emojis' onClick={() => {setemoji("😀")}}> 😀 </div>
-        <div className='emojis' onClick={() => {setemoji("😁")}}> 😁 </div>
-        <div className='emojis' onClick={() => {setemoji("😂")}}> 😂 </div>
-        <div className='emojis' onClick={() => {setemoji("🤣")}}> 🤣 </div>
-        <div className='emojis' onClick={() => {setemoji("😃")}}> 😃 </div>
-        <div className='emojis' onClick={() => {setemoji("😄")}}> 😄 </div>
-        <div className='emojis' onClick={() => {setemoji("😆")}}> 😆 </div>
-        <div className='emojis' onClick={() => {setemoji("😉")}}> 😉 </div>
-        <div className='emojis' onClick={() => {setemoji("😊")}}> 😊 </div>
-        <div className='emojis' onClick={() => {setemoji("😋")}}> 😋 </div>
+        <EmojiBtn emoji={"😀"} setemoji={setemoji}/>
+        <EmojiBtn emoji={"😁"} setemoji={setemoji}/>
+        <EmojiBtn emoji={"😂"} setemoji={setemoji}/>
+        <EmojiBtn emoji={"🤣"} setemoji={setemoji}/>
+        <EmojiBtn emoji={"😃"} setemoji={setemoji}/>
+        <EmojiBtn emoji={"😄"} setemoji={setemoji}/>
+        <EmojiBtn emoji={"😆"} setemoji={setemoji}/>
+        <EmojiBtn emoji={"😉"} setemoji={setemoji}/>
+        <EmojiBtn emoji={"😊"} setemoji={setemoji}/>
+        <EmojiBtn emoji={"😋"} setemoji={setemoji}/>
         </div>
 
     </div>

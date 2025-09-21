@@ -1,0 +1,14 @@
+.emojis{
+    font-size: 20px;
+    border: 2px solid transparent;
+    width: fit-content;
+    padding: 10px;
+    margin: 2px;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: rgb(231, 220, 200);
+    
+}
+.emojis:hover{
+    border: 2px solid #666666;
+}
