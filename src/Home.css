@@ -24,7 +24,8 @@
     width: 160px;
     height: 160px;
     margin: 0 auto;
-    font-size: 25px;
+    font-size: 35px;
+    background-color:rgb(241, 234, 220);;
 }
 .emojis-container{
     display: flex;

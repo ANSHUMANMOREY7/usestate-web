@@ -10,16 +10,17 @@ return (
             <div className='emoji'> {emoji}</div>
         </div>
   <div className="emojis-container">
-        <div className='emojis'> 😀 </div>
-        <div className='emojis'> 😁 </div>
-        <div className='emojis'> 😂 </div>
-        <div className='emojis'> 🤣 </div>
-        <div className='emojis'> 😃 </div>
-        <div className='emojis'> 😄 </div>
-        <div className='emojis'> 😆 </div>
-        <div className='emojis'> 😉 </div>
-        <div className='emojis'> 😊 </div>
-        <div className='emojis'> 😋 </div></div>
+        <div className='emojis' onClick={() => {setemoji("😀")}}> 😀 </div>
+        <div className='emojis' onClick={() => {setemoji("😁")}}> 😁 </div>
+        <div className='emojis' onClick={() => {setemoji("😂")}}> 😂 </div>
+        <div className='emojis' onClick={() => {setemoji("🤣")}}> 🤣 </div>
+        <div className='emojis' onClick={() => {setemoji("😃")}}> 😃 </div>
+        <div className='emojis' onClick={() => {setemoji("😄")}}> 😄 </div>
+        <div className='emojis' onClick={() => {setemoji("😆")}}> 😆 </div>
+        <div className='emojis' onClick={() => {setemoji("😉")}}> 😉 </div>
+        <div className='emojis' onClick={() => {setemoji("😊")}}> 😊 </div>
+        <div className='emojis' onClick={() => {setemoji("😋")}}> 😋 </div>
+        </div>
 
     </div>
     
