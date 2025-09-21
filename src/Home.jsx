@@ -23,6 +23,7 @@ return (
         <EmojiBtn emoji={"😋"} setemoji={setemoji}/>
         </div>
 
+ <input type="range" className='slider' min="1" max="100" />
     </div>
     
 );
