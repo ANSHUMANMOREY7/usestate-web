@@ -10,9 +10,12 @@ function Home() {
         <div className='body'>
             <h1 className="head">Playing with Emojis Using <span className='highlight-head'> React useState </span></h1>
             <h2 className='sub-head'>this is a simple react app that allows you to play with emojis </h2>
-            <div className='emoji-box' style={{ fontSize: `${slidervalue}px`}}>
+            <div className='emoji-box' style={{ fontSize: `${slidervalue}px` , backgroundColor: bgcolor }}>
+                
                 <div className='emoji'> {emoji}</div>
+                
             </div>
+              <input type="range" className='slider' min="1" max="100" value={slidervalue} onChange={(e) => { setslidervalue(e.target.value) }} />
             <div className="emojis-container">
                 <EmojiBtn emoji={"😀"} setemoji={setemoji} />
                 <EmojiBtn emoji={"😁"} setemoji={setemoji} />
@@ -39,7 +42,7 @@ function Home() {
                 <Bgcolor bgcolor={"red"} setbgcolor={setbgcolor} />
             </div>
 
-            <input type="range" className='slider' min="1" max="100" value={slidervalue} onChange={(e) => { setslidervalue(e.target.value) }} />
+          
 
         </div>
     )
