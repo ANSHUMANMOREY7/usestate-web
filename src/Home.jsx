@@ -25,16 +25,16 @@ function Home() {
             </div>
 
             <div className='color-picker'>
-                <div className='color'></div>
-                <div className='color'></div>
-                <div className='color'></div>
-                <div className='color'></div>
-                <div className='color'></div>
-                <div className='color'></div>
-                <div className='color'></div>
-                <div className='color'></div>
-                <div className='color'></div>
-                <div className='color'></div>
+                <div className='color'style={{backgroundColor:'red'}} ></div>
+                <div className='color'style={{backgroundColor:'pink'}} ></div>
+                <div className='color'style={{backgroundColor:'green'}} ></div>
+                <div className='color'style={{backgroundColor:'blue'}} ></div>
+                <div className='color'style={{backgroundColor:'yellow'}} ></div>
+                <div className='color'style={{backgroundColor:'purple'}} ></div>
+                <div className='color'style={{backgroundColor:'orange'}} ></div>
+                <div className='color'style={{backgroundColor:'black'}} ></div>
+                <div className='color'style={{backgroundColor:'aqua'}} ></div>   
+                <div className='color'style={{backgroundColor:'gray'}} ></div>
 
 
             </div>
