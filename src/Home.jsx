@@ -5,7 +5,7 @@ function Home() {
     const [emoji , setemoji]= useState("😀");
     const [slidervalue , setslidervalue] = useState("50")
 return (
-    <div>
+    <div className='body'>
         <h1 className="head">Playing with Emojis Using <span className='highlight-head'> React useState </span></h1>
         <h2 className='sub-head'>this is a simple react app that allows you to play with emojis </h2>
         <div className='emoji-box' style={{ fontSize: `${slidervalue}px` }}>

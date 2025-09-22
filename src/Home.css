@@ -1,8 +1,20 @@
+*{
+    padding: 0;
+    margin: 0;
+    
+}
+.body{
+    background-color: wheat;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: 100vh;
+}
 .head {
   
     text-align: center;
     color: #666666;
     font-size: 45px;
+    padding: 10px;
    
 }
 .highlight-head{
@@ -13,6 +25,8 @@
     text-align: center;
     color: #666666;
     font-size: 25px;
+    padding-bottom: 10px;
+    margin-bottom: 35px;
    
 }
 .emoji-box{
