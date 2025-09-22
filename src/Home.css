@@ -111,3 +111,6 @@
     background-color: rgb(231, 220, 200);
     
 }
+.color:hover{
+    border: 2px solid #666666;
+}
