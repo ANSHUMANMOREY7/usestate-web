@@ -85,3 +85,11 @@
     margin-top: -10px;
 
 }
+.color-picker{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #666666;
+  
+
+}
