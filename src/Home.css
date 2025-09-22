@@ -90,6 +90,17 @@
     justify-content: center;
     align-items: center;
     border: 2px solid #666666;
-  
+    width: fit-content;
+    margin: 0 auto;
+    padding: 10px;
 
+}
+.color{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    border: 2px solid transparent;
+    background-color: rgb(231, 220, 200);
+    
 }
